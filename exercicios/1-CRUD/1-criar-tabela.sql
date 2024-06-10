@@ -1,2 +1,6 @@
 -- Crie uma nova tabela no banco de dados
-exemplo de modificação
+Create table salario_classe(
+  id integer primary key autoincrement,
+  nivel text,
+  salario integer
+  );
